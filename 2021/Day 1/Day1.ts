@@ -16,7 +16,7 @@ for ( let i = 0; i< lines.length; i++) {
 console.log('Part 1: ' + answer);
 
 
-
+/* Part 2 */
 for( let i = 0; i< lines.length; i++){
 
     let currentDepth: number
