@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coupons xmlns="http://www.demandware.com/xml/impex/coupon/2008-06-17">
+          	<coupon coupon-id="202112-classaction">
+                         	<enabled-flag>true</enabled-flag>
+        <redemption-limits>
+            <limit-per-code>1</limit-per-code>
+        </redemption-limits>
+        <multiple-codes/>
+          	</coupon>
+          	<coupon-codes coupon-id="202112-classaction">
