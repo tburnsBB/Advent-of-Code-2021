@@ -11,6 +11,7 @@ toDo = []
 for line in lines:
     toDo.extend(line)
 for to in toDo:
+     
     if to == '(':
         floor += 1
     if to == ')':
@@ -18,6 +19,6 @@ for to in toDo:
     if floor == -1:
         print(postion)
         break
-    postion += 1
+postion += 1
 
 
