@@ -13,6 +13,7 @@ total = 0
 for box in boxes:
     wrapper = 0
     lwh = box.strip('\n').split('x')
+    print(box)
     l = int(lwh[0])
     w = int(lwh[1])
     h = int(lwh[2])
@@ -21,7 +22,10 @@ for box in boxes:
     list.append(int(l))
     list.append(int(w))
     list.append(int(h))
+    print(list)
     list.sort()
+    print(list)
+
     wrapper += min(l*w, w*h, h*l)
     total += wrapper
 print(total)
